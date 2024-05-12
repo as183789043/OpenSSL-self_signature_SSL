@@ -82,7 +82,6 @@ localityName_default            = Taipei
 organizationalUnitName_default  = IT
 emailAddress_default            = test123@gmail.com
 commonName_default              = Myca
-emailAddress_default            = test123@gmail.com
 
 [ v3_ca ]
 # Extensions for a typical CA (`man x509v3_config`).
