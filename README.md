@@ -4,7 +4,7 @@ Use open source tools (OpenSSL) to complete self-signed certificates for develop
 ## SSL generate workflow
 ![image](https://github.com/as183789043/OpenSSL-self_signature_SSL/assets/56618553/5a4d4e47-adde-4c99-90b2-4c90fafad955)
 
-## Prerequest (Demo by Ubuntu about example.conm and localhost)
+## Prerequest (Demo by Ubuntu about example.com and localhost)
 - OpenSSL package
 - Sudo permission
 
