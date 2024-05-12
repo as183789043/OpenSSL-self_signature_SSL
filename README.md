@@ -72,7 +72,7 @@ DNS.1 = localhost
    ```bash
    openssl x509 -req \
     -in <example.csr> \
-    -CA <<rootCA.crt> \
+    -CA <rootCA.crt> \
     -CAkey <rootCA.key> \
     -CAcreateserial \
     -out <example.crt> \
@@ -85,15 +85,16 @@ DNS.1 = localhost
    ```
 
 ## Check Certificate online (When using this key in a production environment, refrain from uploading any files to the websitee )
-[Check link](https://www.cloudmax.com.tw/service/ssl-tools)
+[online Check link](https://www.cloudmax.com.tw/service/ssl-tools)
 
 Check CSR
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edbd24d8-8650-443c-af9c-e5f00f2a4492/31af6c85-e1c6-4996-89b0-b5da1ad0e419/Untitled.png)
+![csr](https://github.com/as183789043/OpenSSL-self_signature_SSL/assets/56618553/2ad7eae4-6f66-4352-83a7-4e244caf9d10)
 
 Check Crt
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edbd24d8-8650-443c-af9c-e5f00f2a4492/bb14dc3b-3330-44a3-b8ce-167c4e74dfff/Untitled.png)
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edbd24d8-8650-443c-af9c-e5f00f2a4492/6a03f106-5910-442b-a841-c7f2892612fe/Untitled.png)
+![crt1](https://github.com/as183789043/OpenSSL-self_signature_SSL/assets/56618553/8b3ee977-fa6f-4fb5-8845-fa5da3994856)
+![crt2](https://github.com/as183789043/OpenSSL-self_signature_SSL/assets/56618553/7adc9c5a-5943-49e5-afcf-a3a16e0d7d3d)
 
 Check Crt and Key match
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/edbd24d8-8650-443c-af9c-e5f00f2a4492/f09da5c6-6a33-4608-9838-bdc6cce3f7ae/Untitled.png)
+![match](https://github.com/as183789043/OpenSSL-self_signature_SSL/assets/56618553/460fff5a-4cc7-4baf-aa46-c8ce88f02e34)
+
 
