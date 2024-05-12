@@ -1,0 +1,26 @@
+[ req ]
+prompt                 = no
+days                   = 3650
+distinguished_name     = req_distinguished_name
+req_extensions         = v3_req
+
+
+[ req_distinguished_name ]
+countryName            = TW
+stateOrProvinceName    = Taiwan
+localityName           = Taipei
+organizationName       = Example
+organizationalUnitName = IT
+commonName             = example.com
+emailAddress           = test123@myemail.com
+
+[ v3_req ]
+basicConstraints       = CA:false
+extendedKeyUsage       = serverAuth
+subjectAltName         = @sans
+
+[ sans ]
+DNS.0 = example.com
+DNS.1 = localhost
+
+
