@@ -85,7 +85,7 @@ DNS.1 = localhost
    ```
 
 ## Check Certificate online (When using this key in a production environment, refrain from uploading any files to the websitee )
-[online Check link](https://www.cloudmax.com.tw/service/ssl-tools)
+[Online check link](https://www.cloudmax.com.tw/service/ssl-tools)
 
 Check CSR
 ![csr](https://github.com/as183789043/OpenSSL-self_signature_SSL/assets/56618553/2ad7eae4-6f66-4352-83a7-4e244caf9d10)
