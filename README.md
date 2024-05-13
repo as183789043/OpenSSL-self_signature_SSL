@@ -54,7 +54,7 @@ DNS.1 = localhost
 
 1. create  CA private key (-deb3 parameter  will ask you about  text password )
    ```bash
-   penssl genrsa -des3 -out <rootCA.key> 4096
+   openssl genrsa -des3 -out <rootCA.key> 4096
    ```
 2. create CA public Key (check parameter and press enter which setting is correct )
    ```bash
