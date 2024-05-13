@@ -84,6 +84,12 @@ DNS.1 = localhost
    example.cnf  example.key  rootCA.crt  rootCA.key  website.csr  website.key
    ```
 
+## If you want generate certificate by script (2024/05/13 update)
+```
+chmod +x certificate.sh
+./certificate.sh  #Enter ca.key text password and decrypt it  to generate certificate
+```
+
 ## Check Certificate online (When using this key in a production environment, refrain from uploading any files to the websitee )
 [Online check link](https://www.cloudmax.com.tw/service/ssl-tools)
 
