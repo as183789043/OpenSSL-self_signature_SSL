@@ -81,7 +81,7 @@ DNS.1 = localhost
 6. Check File in your directory
    ```bash
    [root@rhel9 SSL]# ls
-   example.cnf  example.key  rootCA.crt  rootCA.key  website.csr  website.key
+   ca.cnf example.cnf  example.key  rootCA.crt  rootCA.key  example.csr  example.crt
    ```
 
 ## If you want generate certificate by shell script (2024/05/13 update)
